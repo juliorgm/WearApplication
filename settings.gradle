@@ -1,0 +1,3 @@
+include ':mobile'
+include ':wear'
+rootProject.name = "WearApplication"
