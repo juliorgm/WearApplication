@@ -2,7 +2,6 @@ package br.com.wearapplication
 
 import android.os.Bundle
 import android.support.wearable.activity.WearableActivity
-import androidx.wear.widget.WearableRecyclerView
 
 class MainActivity : WearableActivity() {
 
