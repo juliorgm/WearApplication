@@ -8,10 +8,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.mobile.R
+import br.com.shared.Meal
 
 class MealListAdapter(
-    private val meals: MutableList<Meal>,
-    private val callback: Callback?
+        private val meals: MutableList<Meal>,
+        private val callback: Callback?
 ) : RecyclerView.Adapter<MealListAdapter.MealViewHolder>() {
 
   override fun onBindViewHolder(holder: MealViewHolder, position: Int) {
